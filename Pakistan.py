@@ -81,8 +81,8 @@ banner = """
 \033[1;92m         OOOO    SSSS    CCC  A  A  R  RR     
 \033[1;91m  ______________________________________________
 \033[1;95m  Author   :     \033[1;93mOSCAR ALEX 
-\033[1;95m  PARTNERS :     \033[1;95mBROUCE LEE
-\033[1;95m  UNITY    :     \033[1;92mSTAR FIGHTERS UNITY 
+\033[1;95m  PARTNERS :     \033[1;95mWALEED HASSAN 
+\033[1;95m  UNITY    :     \033[1;92mBLACK STORM FAMILY 
 \033[1;91m  ______________________________________________"""
 back = 0
 threads = []
